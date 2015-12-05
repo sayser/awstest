@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+ <head>
+  <meta charset="utf-8">
+  <title>HTML Links Page</title>
+  <link rel="stylesheet" href="../css/style.css">
+ </head>
+
+ <body>
+
+ <div class="upontop">
+ <h2 class="center"><strong>HTML Links</strong></h2>
+ </div>
+ 
+ <div class="definition">
+  <p>HTML links are hyperlinks, A hyperlink is a text or an image you can click on, and jump to another document
+     In HTML, links are defined with the <strong>&lt;a&gt;</strong>
+  </p>
+
+  <h4>Syntax</h4>
+  <p> &lta href="url"&gt;link text&lt;/a&gt;
+
+
+
+
+  <h3>Examples</h3>
+  <h4>External Link</h4>
+  <p> &lt;a href="http://somesitme.com"&gt;Click to Visit External  Site&lt;/a&gt; </p>
+
+  <h4>Local Link</h4>
+  <p>&lt;a href="somefolder/somefile.html"&gt;Click to Visit Internal html file&lt;/a&gt; </p>
+  
+  <h4>Image Link</h4>
+  <p>&lt;a href="http://www.google.com"&gt;&ltimg src="../images/googlelogo.png"&gt;&lt;/a&gt;      
+  </p>
+  
+  <h4>Creating Bookmarks</h4>
+  <p> HTML Bookmarks are used to allow readers to jump to specific parts of a web page <br><br>
+      First Create the bookmark with "id" attribute: <br>
+      <code> &lt;h2 id="tips"&gt;Useful Tips Section&lt;/h2&gt;</code> <br><br>
+      Then, add a link to the bookmark: <br>
+      <code> &lta href="html_tips.html#tips"&gt;Visit the Useful Tips Section&lt;/a&gt;</code>
+
+  </p>
+
+   <h4>Attributes</h4>
+   <p>
+   The <em>target</em> attribute specifies where to open the linked document<br>
+   _blank  Opens the linked document in a new window or tab<br>
+   <code> &lta href="somepage.html" <em>target="_blank"</em>&gt;Open link in new window&lt;/a&gt;</code>
+   </p>
+
+ </div>
+
+  
+
+ <hr>
+ 
+ <div class="cod"> 
+  <h3 id="codeline">Code</h3>
+  <blockquote>
+    &lt;a href="http://www.google.com"&gt;Link to GOOGLE.com&lt;/a&gt; <br>
+    &lt;a href="http://www.google.com"&gt;&ltimg src="../images/googlelogo.png"&gt;&lt;/a&gt; <br>
+  </blockquote>
+ </div>
+
+ <br>
+ <br>
+ <br>
+
+ <div class="result">
+  <h3 id="resultline">Results</h3>
+  <blockquote>
+    <a href="http://www.google.com">Link to GOOGLE.com</a> <br>
+    <a href="http://www.google.com"><img src="../images/googlelogo.png" style="width:65px; height:30px;" alt="google image"></a> <br>
+  </blockquote>
+ </div>
+<hr>
+ <div class="center">
+  <a href="../index.html"><em>HOME</em></a>
+ </div>
+
+ </body>
+</html>
